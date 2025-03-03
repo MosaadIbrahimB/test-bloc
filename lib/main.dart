@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:radio/screen/counter_screen/counter_screen.dart';
+import 'package:radio/screen/login_screen.dart';
 import 'package:radio/screen/posts/posts_screen.dart';
 
 import 'home_screen.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'radio app',
-      home: const PostsScreen(),
+      home: const LoginScreen(),
     );
   }
 }
